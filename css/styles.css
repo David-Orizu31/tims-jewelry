@@ -242,8 +242,12 @@ body p {
     font-family: 'Raleway', sans-serif;
   }
 
-  .italic-text {
+  .lobster-text {
     font-family: 'Lobster', cursive;
+  }
+
+  .lobstertwo-text {
+    font-family: 'Lobster Two', cursive;
   }
   
   .img-responsive {
