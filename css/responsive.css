@@ -1,0 +1,45 @@
+@media (max-width:992px) {
+    .banner-one {
+        min-height: 600px;
+        padding-top: 200px;
+    }
+    .banner-two {
+        min-height: 600px;
+        padding-top: 200px;
+    }
+    .banner-three {
+        min-height: 600px;
+        padding-top: 200px;
+    }
+}
+
+@media (max-width:480px) {
+    .banner-one {
+        min-height: 600px;
+        padding-top: 170px;
+    }
+    .banner-two {
+        min-height: 600px;
+        padding-top: 170px;
+    }
+    .banner-three {
+        min-height: 600px;
+        padding-top: 170px;
+    }
+
+    .banner-head {
+        font-size: 40px;
+    }
+
+    .banner-text {
+        font-size: 18px;
+    }
+
+    .header-text {
+        font-size: 30px;
+    }
+
+    .subheader_text {
+        font-size: 24px;
+    }
+}

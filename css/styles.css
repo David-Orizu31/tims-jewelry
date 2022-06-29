@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Lobster&family=Lobster+Two&family=Quicksand:wght@400;500;600;700&family=Raleway:ital,wght@0,500;0,600;1,400&family=Rubik+Moonrocks&family=Source+Code+Pro:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.site-header {
+  background: #f8dd70;
+}
+
+.head-info a {
+   color: #336699;
+   text-decoration: none;
+   font-family: 'Barlow', sans-serif;
+}
+
+.head-info .divider {
+    color: #336699;
+}
+
+.site-header .marquee {
+    font-size: 15px;
+    color: #336699;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background: #336699 !important;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+.toggle-btn {
+    color: #f8dd70;
+    border: 1px solid #f8dd70;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+#collapsibleNavId .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+
+#collapsibleNavId .navbar-nav .nav-item.active .nav-link {
+    color: #f8dd70;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #336699;
+    margin-right: 15px;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-login {
+    color: #f8dd70;
+    background: #336699;
+    border-radius: 0px;
+    margin-right: 10px;
+    border: 1px solid #336699;
+}
+
+.btn-login:hover {
+    color: #336699;
+}
+
+.btn-register {
+    color: #336699;
+    background: white;
+    border-radius: 0px;
+    border: 1px solid white;
+}
+
+.btn-register:hover {
+    color: #f8dd70;
+    background: #336699;
+}
+
+.cart-link {
+    position: relative;
+}
+
+.cart-link i{
+    color: white;
+    font-size: 20px;
+}
+
+.cart-link .cart-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f8dd70;
+    color: #336699;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-right: -8px;
+}
+
+.banner-one {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../img/tims-banner-1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 100px;
+}
+
+.banner-two {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../img/tivis-ban-2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 100px;
+}
+
+.banner-three {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../img/tivis-banner-3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 100px;
+}
+
+/* .banner-area {
+    background: #04284d;
+    padding: 30px;
+} */
+
+.banner-head {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #f8dd70;
+    font-size: 45px;
+}
+
+.banner-text {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15px;
+}
+
+.btn-banner {
+    color: #f8dd70;
+    background: #336699;
+    border: 2px solid #f8dd70;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.btn-banner:hover {
+    color: #f8dd70;
+    background: transparent;
+    border: 2px solid #f8dd70;
+}
+
+.fade-banner .carousel-arrow {
+    border: 0;
+    background: transparent;
+    display: none !important;
+    height: 50px;
+    width: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+  }
+
+  .fade-banner:hover .carousel-arrow {
+    display: block !important;
+  }
+  
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .fade-banner .carousel-arrow.next {
+    right: 0;
+  }
+
+  .slider-dots {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider-dots li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+  
+  .slider-dots li > button {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f8dd70;
+    background: transparent;
+    color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .slider-dots li.slick-active > button {
+    background: #f8dd70;
+  }
+
+  .header_text {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    color: #336699;
+    font-size: 40px;
+  }
+
+  .subheader_text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #ebc016;
+    font-size: 28px;
+  }
+
+  .text-blue {
+    color: #336699;
+  }
+
+  .text-gold {
+    color: #ebc016;
+  }
+
+  .raleway-text {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .italic-text {
+    font-family: 'Lobster', cursive;
+  }
+  
+  .img-responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn-more {
+    color: #f8dd70;
+    background: #336699;
+    border-radius: 0px;
+    border: 2px solid #336699;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .btn-more:hover {
+    color: #336699;
+    background: white;
+  }
+
+  .other_head_text {
+    color: #336699;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+  }
+
+  .blue-bot {
+    width: 50px;
+    height: 3px;
+    background: #336699;
+  }
+  
