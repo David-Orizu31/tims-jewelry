@@ -39,7 +39,12 @@ body p {
 
 .toggle-btn {
     color: #f8dd70;
-    border: 1px solid #f8dd70;
+    border: none;
+    font-size: 22px;
+}
+
+.toggle-btn:focus {
+    box-shadow: none;
 }
 
 .img-logo {
@@ -187,6 +192,30 @@ body p {
     right: 0;
   }
 
+  .my-slider .slider-arrow {
+    border: 0;
+    background: #f8dd70;
+    display: none !important;
+    height: 50px;
+    width: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+  }
+
+  .my-slider:hover .slider-arrow {
+    display: block !important;
+  }
+  
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .my-slider .slider-arrow.next {
+    right: 0;
+  }
+
   .slider-dots {
     list-style: none;
     position: absolute;
@@ -213,6 +242,33 @@ body p {
   }
   
   .slider-dots li.slick-active > button {
+    background: #f8dd70;
+  }
+
+  .myslider-dots {
+    list-style: none;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .myslider-dots li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+  
+  .myslider-dots li > button {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f8dd70;
+    background: transparent;
+    color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .myslider-dots li.slick-active > button {
     background: #f8dd70;
   }
 
@@ -368,5 +424,9 @@ body p {
   
   .fadeIn-right{
     left: 80%;
+  }
+
+  .slider-area {
+    width: 95%;
   }
   
