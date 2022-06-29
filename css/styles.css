@@ -369,7 +369,7 @@ body p {
   }
 
   .content:hover .content-image {
-    transform: scale(1.5);
+    transform: scale(1.2);
     -webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
