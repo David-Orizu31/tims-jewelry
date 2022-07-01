@@ -88,6 +88,10 @@
     .slider-img {
         height: 220px;
       }
+    
+      .other-banners h5 {
+        font-size: 16px;
+      }
 }
 
 @media only screen and (max-width: 7680px) and (min-width: 1000px)  {
